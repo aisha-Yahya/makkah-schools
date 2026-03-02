@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('load', () => {
             setTimeout(() => {
                 preloader.classList.add('hidden');
-            }, 800);
+            }, 300);
         });
-        // Fallback: hide after 3 seconds max
+        // Fallback: hide after 1.5 seconds max
         setTimeout(() => {
             preloader.classList.add('hidden');
-        }, 3000);
+        }, 1500);
     }
 
     // ============================================
